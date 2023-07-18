@@ -1,0 +1,71 @@
+/* Style for the vertical navigation bar */
+.vertical-nav {
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+  }
+  
+  /* Style for the menu items */
+  .vertical-nav a {
+    color: #000;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Style for the selected menu item */
+  .vertical-nav a.active {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  /* Style for the vertical text */
+  .vertical-text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    font-size: 18px;
+  }
+  /* Style for the vertical navigation bar */
+.vertical-nav {
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 50px; /* Adjust the width as needed */
+  }
+  
+  /* Style for the menu items */
+  .vertical-nav a {
+    color: #000;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 14px; /* Adjust the font size as needed */
+    text-align: center;
+    line-height: 1.5; /* Adjust the line height as needed */
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    white-space: nowrap;
+  }
+  
+  /* Style for the selected menu item */
+  .vertical-nav a.active {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  /* Style for the vertical text */
+  .vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+  }
+  
